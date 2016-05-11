@@ -1,0 +1,17 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+The FC command in windows listed the differences after a heading of the file name.
+The diff command in Git Bash used plus and minusses to represent the changes between the two files.
+By seeing the changes you could easily see the changes between the two files, and as such the differences, and the bug that was introduced.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+By allowing me to see the changes, and the optimisations I have created as I have learnt and developed as a programmer.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Maunal Commit
+Pros - can choose to commit in logical stages
+Cons - may wait too long to commit
+     - may include too many fixes for one commit
+Auto Saving
+Pros - allow to commit if user is forgetful
+Cons - may commit in the middle of a logical operation
+     - may commit when code is not working
