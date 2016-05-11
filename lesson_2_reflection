@@ -3,3 +3,6 @@ By calling 'git init', and initializing a repository, a folder called '.git' is 
 
 How is the staging area different from the working directory and the repository, What value do you think it offers?
 The staging area is where files are added prior to commiting them from the working directory to the repository. As it is a staging area for the files, you can make chanes without having to be too concerned about making mistakes or adding bugs.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By adding only the files that you have changed to the staging area, and then using 'git diff --staged' to check the difference between the files in the staging area nad the last commit in the repository, you can make sure that only one logical change is added per commit.
