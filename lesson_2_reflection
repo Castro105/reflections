@@ -6,3 +6,12 @@ The staging area is where files are added prior to commiting them from the worki
 
 How can you use the staging area to make sure you have one commit per logical change?
 By adding only the files that you have changed to the staging area, and then using 'git diff --staged' to check the difference between the files in the staging area nad the last commit in the repository, you can make sure that only one logical change is added per commit.
+
+What are some situations when branches would be helpful in keepig your history organised? How would branches help?
+Situation where branches would be helpful are when you want to try something experimental and don't know if the feature will work or not, or if you are porting over to another language, or changing a large amount of code. Branches can keep all of these features seperate until they are fully realised.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of a merge is to incorporate the changes of one branch into another branch. As such the commits are now included in the second branch. That means the first branch (name only) can be deleted. It is shown diagrammatically the way it is to show the commits from the two different branches forming the one branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Thr pros of automatic merging is that you don't need to worry about doing it yourself, a con is that Git may not know what changes whould be incorporated. Manual merging allows you to select the correct time to merge a file, but you may leave it too long and have multiple copies of the file to try to merge.
